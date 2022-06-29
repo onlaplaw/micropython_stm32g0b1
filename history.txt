@@ -1,0 +1,15 @@
+**************************************************
+Version: Initial version
+Date: 2021.11.18
+Author: Loly Law
+Description: micropython firmware covers stm32g0b1.
+
+Feature added:
+
+Feature optimized:
+
+Bug fixed:
+
+Bug exist:
+
+**************************************************

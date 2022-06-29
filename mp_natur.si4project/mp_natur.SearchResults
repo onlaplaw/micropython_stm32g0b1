@@ -1,0 +1,7 @@
+---- MP_REGISTER_MODULE Matches (6 in 4 files) ----
+py.makemoduledefs in makemoduledefs.py (py) : # MP_REGISTER_MODULE(module_name, obj_module, enabled_define)
+py.makemoduledefs in makemoduledefs.py (py) : pattern = re.compile(r"[\n;]\s*MP_REGISTER_MODULE\((.*?),\s*(.*?),\s*(.*?)\);", flags=re.DOTALL)
+py.makemoduledefs.find_module_registrations in makemoduledefs.py (py) :     """Find any MP_REGISTER_MODULE definitions in the provided c file.
+modarray.c (py) line 43 : MP_REGISTER_MODULE(MP_QSTR_uarray, mp_module_uarray, MICROPY_PY_ARRAY);
+obj.h (py) line 394 : #define MP_REGISTER_MODULE(module_name, obj_module, enabled_define)
+objmodule.c (py) line 241 :     // builtin modules declared with MP_REGISTER_MODULE()
